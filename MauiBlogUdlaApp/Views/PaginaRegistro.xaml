@@ -3,5 +3,20 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiBlogUdlaApp.Views.PaginaRegistro"
              Title="PaginaRegistro">
-    
+    <Grid RowDefinitions=".3*,.4*" Margin="0">
+
+        <Image Aspect="AspectFill" Source="https://arquitecturapanamericana.com/wp-content/uploads/2017/03/FOTOGRAFIA-SELECCIONADA-106.jpg" />
+
+        <Grid BackgroundColor="White" Opacity=".20" />
+
+        <Grid Grid.Row="1">
+            <RoundRectangle Margin="-5,-20,-5,-2" 
+                            CornerRadius="30,30,0,0"
+                            Fill="white" />
+
+           
+        </Grid>
+    </Grid>
+
+
 </ContentPage>
